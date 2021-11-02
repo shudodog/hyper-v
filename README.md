@@ -15,3 +15,13 @@ bcdedit /set hypervisorlaunchtype off
 ```
 bcdedit /set hypervisorlaunchtype auto
 ```
+
+*mysql 실행
+```
+sudo /etc/init.d/mysql start
+```
+
+*mysql 자동 실행 등록
+```
+sudo systemctl enable mysql
+```
